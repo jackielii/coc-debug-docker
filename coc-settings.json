@@ -1,0 +1,16 @@
+{
+  "languageserver": {
+    "gopls": {
+      "command": "gopls",
+      "filetypes": ["go"],
+      "rootPatterns": ["go.mod", ".git/"],
+      "disableWorkspaceFolders": true,
+      "initializationOptions": {
+        "usePlaceholders": false,
+        "completeUnimported": true,
+        "static_check": true,
+        "hoverKind": "FullDocumentation"
+      }
+    }
+  }
+}
